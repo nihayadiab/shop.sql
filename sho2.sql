@@ -8,3 +8,4 @@ CREATE TABLE customers (
     country VARCHAR(50),
     registration_date DATE DEFAULT CURRENT_DATE
 )
+abcd
