@@ -9,3 +9,8 @@ CREATE TABLE customers (
     registration_date DATE DEFAULT CURRENT_DATE
 )
 abcd
+CREATE TABLE orders (
+    order_id INT PRIMARY KEY AUTO_INCREMENT,
+    customer_id INT PRIMARY KEY AUTO_INCREMENT,
+
+)
